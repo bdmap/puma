@@ -1,0 +1,102 @@
+
+
+.footer{
+   background: #ee55140e;
+   border-bottom: 1px solid #a6a4a433;
+   padding-bottom: 40px;
+   padding-top: 140px;
+
+   &__row{
+      display: flex;
+   
+      justify-content: space-between;
+   }
+   &__title{
+      opacity: 1;
+      margin-bottom: 31px;
+   }
+   &__form{
+      display: flex
+      
+   }
+   &__input{
+      border-radius: 10px 0 0 10px;
+      background-color: inherit;
+      padding: 15px 30px;
+      width: 100%;
+      border: 1px solid #1a0a0355;
+      border-right: none;
+   }
+   &__icons-list{
+      white-space: nowrap;
+   }
+   &__btn{
+      border-radius: 0 10px 10px 0;
+   }
+   &__text{
+      margin-bottom: 38px;
+   }
+   &__link{
+      display: block;
+      &:last-child{
+         margin-bottom: 0;
+      }
+      margin-bottom: 10px;
+
+   }
+   &__email{
+      margin-bottom: 10px;
+      display: inline-block;
+      flex-grow: 1;
+   }
+
+   &__city-info{
+      margin-bottom: 20px;
+      flex-grow: 1;
+   }
+   &__puma{
+      flex-grow: 1;
+      margin-bottom: 23px;
+   }
+   &__icon{
+      margin-right: 25px;
+      display: inline-block;
+      &:last-child{
+         margin-right: 0;
+      }
+   }
+
+   &__services{
+      max-width: 25%;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+   }
+   &__contact{
+      max-width: 25%;
+
+   }
+   &__support{
+      max-width: 25%;
+   }
+   &__city{
+      max-width: 25%;
+   }
+
+   &-copy{
+      height: 88px;
+      display: flex;
+      background-color: #ee55140e;
+      
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      text-align: center;
+      color: #1A0A03;
+      opacity: 0.7;
+   }
+}
